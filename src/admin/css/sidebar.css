@@ -2,3 +2,49 @@
     height: 100vh;
     background-color: #0E2148;
 }
+.sidebar .sidebar-top{
+    height: auto;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+.sidebar .sidebar-top img{
+    border-radius: 50%;
+}
+#active{
+    background-color: #333446;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px!important;
+    border-radius: 5px;
+}
+#sidebar-bottom nav .nav{
+    display: block;
+    color: #EEE;
+    text-decoration: none;
+    font-size: 14.5px;
+    padding: 8px 10px 8px 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#sidebar-bottom nav .nav i{
+    padding-right: 8px;
+}
+#sidebar-bottom nav .nav:hover{
+    background-color: #333446;
+    color: #EEE;
+}
+#drop,#drop1,#drop2,#drop3,#drop4,#drop5{
+    float: right;
+    margin-top: 4px;
+}
+.top-header{
+    height: 60px;
+    background-color: #fff;
+    box-shadow: #7F8CAA 0px 10px 10px -10px;
+}
